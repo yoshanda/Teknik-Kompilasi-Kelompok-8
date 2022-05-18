@@ -1,0 +1,54 @@
+Program ini dibuat untuk memudahkan seseorang yang ingin membuat suatu program dengan menggunakan bahasa Indonesia
+
+Beberapa sintaks/kode yang umum (dalam bahasa Inggris) diubah kedalam bahasa Indonesia, antara lain sebagai berikut:
+
+VAR -> VARIABEL
+AND -> DAN
+OR -> ATAU
+NOT -> BUKAN
+IF -> JIKA
+ELIF -> ATAU_JIKA
+ELSE -> JIKA_SELAINNYA
+FOR -> UNTUK
+TO -> SAMPAI
+STEP -> LANGKAH
+WHILE -> KETIKA
+FUN -> FUNGSI
+THEN -> MAKA
+END -> SELESAI
+RETURN -> KEMBALI
+CONTINUE -> SELANJUTNYA
+BREAK -> BERHENTI
+
+Beberapa fungsi yang diubah kedalam bahasa Indonesia antara lain (penulisan fungsi -> nama_fungsi()):
+TRUE -> BENAR
+FALSE -> SALAH
+MATH_PI -> MATEMATIKA_PI
+PRINT -> CETAK
+PRINT_RET -> CETAK_RET
+INPUT -> MASUKKAN
+INPUT_INT -> MASUKKAN_INTEGER
+CLEAR -> BERSIHKAN
+CLS -> BERSIH
+IS_NUM -> ADALAH_NOMOR
+IS_STRING -> ADALAH_STRING
+IS_LIST -> ADALAH_DAFTAR
+IS_FUN -> ADALAH_FUNGSI
+APPEND -> MENAMBAHKAN
+POP -> MENGHAPUS
+EXTEND -> MEMPERPANJANG
+LEN -> PANJANG
+RUN -> JALANKAN
+
+terdapat skrip .ina dimana kita bisa memasukkan kode program atau membuat suatu program dengan bahasa Indonesia
+
+Langkah-langkah:
+1. Buat skrip dengan ekstensi .ina (ina = Indonesia)
+2. Buat suatu program kedalam skrip .ina tersebut
+3. Save program pada skrip .ina
+4. Jalankan shell.py
+5. Pada terminal ketik JALANKAN("skrip .ina nya tadi")
+6. Program yang ada dalam skrip .ina akan di Jalankan
+7. Selesai
+
+NOTE: program ini selesai pada tanggal 18/05/2022 22:26 -ysh

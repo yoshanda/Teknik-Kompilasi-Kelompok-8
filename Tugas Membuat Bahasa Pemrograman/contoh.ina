@@ -1,0 +1,31 @@
+# Ini merupakan bagian dari software yang sangat berguna
+
+FUNGSI oopify(akhiran) -> akhiran + "oop"
+
+FUNGSI gabung(elemen, pemisah)
+	VARIABEL hasil = ""
+	VARIABEL panjang = PANJANG(elemen)
+
+	UNTUK i = 0 SAMPAI panjang MAKA
+		VARIABEL hasil = hasil + elemen/i
+		JIKA i != panjang - 1 MAKA VARIABEL hasil = hasil + pemisah
+	SELESAI
+
+	KEMBALI hasil
+SELESAI
+
+FUNGSI map(elemen, fungsi)
+	VARIABEL elemen_baru = []
+
+	UNTUK i = 0 SAMPAI PANJANG(elemen) MAKA
+		MENAMBAHKAN(elemen_baru, fungsi(elemen/i))
+	SELESAI
+
+	KEMBALI elemen_baru
+SELESAI
+
+CETAK("Halo dunia!")
+
+UNTUK i = 0 SAMPAI 5 MAKA
+	CETAK(gabung(map(["l", "sp"], oopify), ", "))
+SELESAI

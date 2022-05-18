@@ -1,0 +1,8 @@
+#ini merupakan contoh program matematika penjumlahan sederhana
+
+VARIABEL a = 1
+VARIABEL b = 2
+
+VARIABEL hasil = a + b
+
+CETAK(hasil)
